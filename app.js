@@ -11,7 +11,7 @@ var favActore = prompt ('hello,please enter your fav char name move!');
 //validator
 
 while(favActore !=='sherlock'&& favActore!=='watson'){
-  charName = prompt('please enter the name sherlock or watson');
+  favActore = prompt('please enter the name sherlock or watson');
 }
 var userChoose;
 
