@@ -1,0 +1,35 @@
+ header{
+   background-color:#eeebdd;
+ }
+
+  h1{
+   color:#ce1212;
+   text-align:center;
+ }
+
+  nav ul li {
+   display: inline;
+   margin: 10px;
+ }
+
+  main article img{
+   width:100%;
+   opacity: 1;
+ }
+
+ nav ul li a {
+   text-decoration: none;
+   
+ }
+main article h3{
+  border: 1px solid black;
+  color: #810000;
+  margin: 30px;
+}
+main article p{
+  color: #9c3d54;
+}
+
+ footer{
+  text-align: center;
+}

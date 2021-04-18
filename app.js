@@ -6,15 +6,18 @@ alert ('that is great enjoy the movie');
   
   
 }*/
-
-var favActore = prompt ('hello,please enter your fav char name move!');
-//validator
+var favChar;
+var favActore = function(){ 
+  favChar=prompt ('hello,please enter your fav char name move!');
 
 while(favActore !=='sherlock'&& favActore!=='watson'){
   favActore = prompt('please enter the name sherlock or watson');
 }
-var userChoose;
+}
+favActore();
 
+var userChoose;
+function imagNum (){
 if (favActore ==='sherlock')
 {
   userChoose='<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTiCs3KcQP3_UM95ztD6TKupSCtPLEEO0IcFg&usqp=CAU">';
@@ -27,3 +30,5 @@ var imgNum= prompt('how many image do you want');
 for(var i=0;i<imgNum;i++){
   document.write(userChoose);
 }
+}
+imagNum ();
